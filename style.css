@@ -1,0 +1,399 @@
+.do-hyeon-regular {
+    font-family: Do Hyeon;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+
+#about {
+    width: 200px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: #FFC7C7;
+    text-align: center;
+    color: #41334e;
+    /* 진갈색 */
+    margin: 0 auto;
+    /* 수평 가운데 정렬 */
+
+}
+
+
+#end {
+    width: 200px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: #FFC7C7;
+    text-align: center;
+    color: #41334e;
+    margin: 0 auto;
+
+}
+
+.slide.current-slide {
+    padding-bottom: 20px;
+    /* ABOUT 아래에 여백 추가 */
+}
+
+.about-content p {
+    margin-left: 10%;
+    /* 왼쪽 여백 추가 */
+    margin-bottom: 10px;
+    /* 각 문장 사이에 여백
+     추가 */
+    font-size: 60px;
+    /* 글꼴 크기 조정 */
+    font-weight: 800;
+    font-family: 'SCoreDream';
+    color: white;
+
+}
+
+.end-content p {
+
+    margin-bottom: 10px;
+    font-size: 73px;
+    font-weight: 800;
+    font-family: 'SCoreDream';
+    color: white;
+    text-align: center;
+
+}
+
+#my {
+    font-weight: 600;
+    font-size: 28px;
+    height: 50px;
+    width: 260px;
+    display: inline-block;
+    margin: 5% auto 0;
+    /* 위쪽에만 여백 추가 및 수평 가운데 정렬 */
+    overflow: hidden;
+    background-color: #D2DCD3;
+    text-align: center;
+    color: black;
+    display: flex;
+    /* 내용을 수직 가운데 정렬하기 위해 Flexbox 사용 */
+    align-items: center;
+    /* 수직 가운데 정렬 */
+    justify-content: center;
+    /* 수평 가운데 정렬 */
+}
+
+
+body {
+    margin: 0;
+    background-color: rgb(145, 134, 175);
+    /* 연보라색 배경 */
+    font-family: 'SCoreDream';
+    font-weight: 300;
+}
+
+header {
+    width: 100%;
+    /* 헤더의 너비를 화면 너비와 동일하게 설정 */
+    background-color: #cccccc;
+    /* 회색 배경 색상 지정 */
+    padding: 0px;
+    /* width: 800px; */
+    height: 15%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    /* 헤더 아래 여백 추가 */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #887474;
+    padding: 10px 0;
+    height: 15%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    text-align: center;
+    /* 텍스트 가운데 정렬 */
+    margin-top: 20px;
+    /* 위 여백 추가 */
+}
+
+.intro-text h2 {
+    color: pink;
+    /* 분홍색으로 색상 변경 */
+    position: relative;
+    display: inline-block;
+    /* 인라인 요소로 표시 */
+    font-weight: 150;
+    text-decoration: underline;
+}
+
+.info {
+    margin-top: 9%;
+    margin-left: 12%;
+    font-size: 35px;
+}
+
+
+.lastwant {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFC7C7;
+    margin-left: 15%;
+    margin-top: 5%;
+    /* 위 여백 추가 */
+}
+
+.personal-info p {
+    margin: 5px 0;
+    color: #635670;
+    font-weight: 500;
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.firstwhite {
+    width: 450px;
+    height: 450px;
+    background-color: #FFF1EA;
+    top: 300px;
+    left: 35%;
+    transform: translateX(-50%);
+
+}
+
+.white1 {
+    width: 300px;
+    height: 300px;
+    background-color: #FFF1EA;
+    top: 300px;
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+.textwhite1 {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    left: 13%;
+    top: 420px;
+    font-size: 35px;
+    color: #595959;
+    font-weight: 500;
+}
+
+.white2 {
+    width: 300px;
+    height: 300px;
+    background-color: #FFF1EA;
+    top: 300px;
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+.textwhite2 {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    left: 56%;
+    top: 400px;
+    font-size: 35px;
+    color: #595959;
+    font-weight: 500;
+}
+
+.textwhite2 p {
+    margin: 0;
+    font-weight: 500;
+    color: #595959;
+    font-size: 30px;
+}
+
+.firstmint {
+    width: 340px;
+    height: 340px;
+    background-color: #8DB49F;
+    top: 200px;
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.mint1 {
+    width: 300px;
+    height: 300px;
+    background-color: #8DB49F;
+    top: 300px;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.textmint1 p {
+    margin: 0;
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+}
+
+.textmint2 p {
+    margin: 0;
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+}
+
+.textmint1 {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    left: 32%;
+    top: 390px;
+    font-size: 30px;
+    color: #595959;
+    font-weight: 500;
+}
+
+.mint2 {
+    width: 300px;
+    height: 300px;
+    background-color: #8DB49F;
+    top: 300px;
+    left: 80%;
+    transform: translateX(-50%);
+}
+
+.textmint2 {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    left: 75%;
+    top: 380px;
+    font-size: 35px;
+    color: #595959;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.lastmint {
+    /* width: 500px;
+    height: 500px;  */
+    background-color: #C9C9C9;
+    top: 70px;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 375px;
+    height: 750px;
+    border-radius: 375px 0 0 375px;
+}
+
+
+.lastblack {
+    width: 340px;
+    height: 340px;
+    background-color: #686061;
+    top: 230px;
+    left: 21%;
+    transform: translateX(-50%);
+}
+
+.circlesmenu {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3px;
+}
+
+
+.circlesmenu2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid white;
+}
+
+.filled {
+    background-color: white;
+}
+
+
+.slides {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* slide */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.current-slide {
+    display: block;
+    opacity: 1;
+}
+
+.slide.current-slide {
+    transform: translateX(0%);
+}
+
+.slide.next-slide {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.slide.prev-slide {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+/* 화살표 스타일 */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.arrow.prev {
+    left: 10px;
+}
+
+.arrow.next {
+    right: 10px;
+}
+
+
